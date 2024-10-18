@@ -1,0 +1,67 @@
+# Python #
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.env
+
+# Django #
+*.log
+db.sqlite3
+media/
+staticfiles/
+
+# Ignore migrations files that are not yet committed #
+**/migrations/*
+!**/migrations/__init__.py
+
+# Docker #
+*.log
+docker-compose.override.yml
+*.pid
+
+# Virtualenv #
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Environment variables #
+.env
+*.env
+
+# Byte-compiled / optimized / DLL files #
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Unit test / coverage reports #
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# macOS-specific files #
+.DS_Store
+
+# VSCode-specific files #
+.vscode/
+
+# Ignore IDE settings #
+.idea/
+
+# Ignore any files related to logs or temp files #
+*.log
+*.tmp
